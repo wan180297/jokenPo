@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(3d-fantasy-scene.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: rgba(106, 175, 180, 0.8);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+h1 {
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    font-size: 30px;
+}
+button:hover {
+    border: 2px solid #fff;
+}
+button:active {
+    opacity: .7;
+}
+#scissors {
+    background-color: #3e456f;
+}
+#paper {
+    background-color: #b7f1f3;
+}
+#stone {
+    background-color: #f3a696;
+}
+img {
+    width: 100px;
+}
+.myScore {
+    margin: 20px 0px 20px 0px;
+}
+.myScore span {
+    color: rgb(20, 20, 104);
+}
+.machineScore span {
+    color: rgb(231, 34, 34);
+}
